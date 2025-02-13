@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+*{
+    font-family: "Outfit", serif;
+}
+body{
+    display:grid;
+    grid-template-columns: 1fr 0.6fr 1fr 1fr;
+    position:relative;
+}
+.first-box{
+    background:linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    padding-right: 18rem;
+    padding-bottom: 34rem;
+    border-bottom-left-radius:15rem;
+    border-bottom-right-radius:15rem;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+}
+.second-box{
+    background-color: white;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    transform: translate(230px,10px);
+    border-radius:2rem 2rem 1.5rem 1.5rem;
+    width: 16.5em;
+    box-shadow: 10px 10px 10px rgb(203, 202, 202);
+}
+.container{
+    background-color: rgb(234, 231, 231);
+    margin: 0.5rem;
+    border-radius:2rem 2rem 1rem 1rem;
+    width: 15.5rem;
+}
+.phone-header{
+    background:linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%)) ;
+    padding-right:2rem;
+    padding-bottom: 0.5rem;
+    border-radius:2rem 2rem 0.5rem 0.5rem;
+}
+.header-content{
+    display: flex;
+}
+.white-box{
+    height: 2rem;
+    width :11rem;
+    background-color: white;
+    transform: translate(2.2rem ,-10px);
+    border-radius: 1rem;
+}
+.icon{
+    width: 1.5rem;
+    margin-left: 1rem;
+    height: 1.5rem;
+    margin-top: 1px;
+}
+.person-image{
+    height: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    margin-top: 1px;
+}
+h1{
+    color: rgb(62, 59, 59);
+    line-height: 0;
+}
+.name{
+    margin-left: 0.7rem;
+    color: white;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-size: small;
+}
+.work{
+    margin-top: 0;
+    width: 15ch;
+    margin-left: 0.7rem;
+    color: rgba(185, 180, 180, 0.671);
+    font-size: 10px;
+}
+.threepoint{
+    margin-left: 2.5rem;
+    height: 1.3rem;
+}
+.text-one,.secondText,.text-three,.text-four,.text-five{
+    border-radius: 10px;
+    font-size: 7px;
+    padding: 0.5px;
+    width:25ch;
+}
+.text-one,.secondText,.text-five{
+    background-color: hsla(270, 14%, 78%, 0.235);
+    color:  hsl(276, 55%, 52%);
+    margin: 0.5rem;
+}
+.text-three,.text-four{
+    background-color: hsl(0, 0%, 100%);
+    color: gray;
+    margin:0.1rem;
+}
+.text-four{
+    width: 17ch;
+}
+.threeandfour{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 0.5rem;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    margin-right: 0.5rem;
+}
+.dog{
+    width: 2.5rem;
+    margin: 2px;
+    border-radius:10px;
+    margin-right: 0;
+}
+.btn{
+    height:1.7rem;
+    width: 12rem;
+    margin:2px;
+    margin-left:0.5rem;
+    border: none;
+    border-radius:0.5rem;
+    color:gainsboro;
+    font-size: 11px;
+    text-indent:5px;
+    background:linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%)) ;
+}
+.circle-image{
+    width: 1rem;
+    transform: translate(-10px,2px);
+}
+span{
+    margin-left: 3rem;
+    font-size: 13px;
+    color: white;
+}
+input{
+    height: 1.9rem;
+    width: 14rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius:1rem;
+    font-size: 10px;
+    text-indent: 1.5rem;
+    color: gray;
+}
+.image-of-search{
+    width: 1.5rem;
+    position: absolute;
+    top: 423px;
+    right: 25px;
+}
+.third-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position: relative;
+    left: 21rem;
+    color: gray;
+    width: 40ch;
+}
+.fourth-box{
+    padding-left: 20rem;
+    border-top-left-radius:17rem;
+    position: relative;
+    bottom: -4.5rem;
+    right: -16.5rem;
+    background-color:hsla(276, 100%, 81%, 0.107);
+}
+@media (max-width:500px) {
+    body{
+        display:grid;
+        grid-template-rows: 1fr 0.6fr 1fr 1fr;
+    }
+    .first-box{
+        padding-right: 25rem;
+        left: -13rem;
+        top:-5%;
+    }
+    .second-box{
+        transform: translate(70px,1px);
+    }
+    .third-box{
+        position: absolute;
+        top: 32%;
+        left: 10%;
+        color: gray;
+        width: 27ch;
+        line-height: 2rem;
+    }
+    .fourth-box{
+        padding-left: 15rem;
+        bottom: -70%;
+        right: 10%;
+    }
+}
+
+
+
+
