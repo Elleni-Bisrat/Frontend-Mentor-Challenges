@@ -1,0 +1,156 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsla(31, 70%, 83%, 0.553);
+  display: flex;
+  height: 100rem;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 45rem;
+  height: 97rem;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+img {
+  border-radius: 15px;
+  width: 40rem;
+  display: flex;
+  justify-self: center;
+  margin-top: 2rem;
+}
+.mainpara {
+  margin-left: 2.3rem;
+  width: 60ch;
+  font-size: 16px;
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+}
+.prepare {
+  height: 10rem;
+  width: 40rem;
+  background-color: rgba(250, 194, 242, 0.235);
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  border-radius: 10px;
+  font-family: "Outfit", serif;
+}
+p:nth-child(1) {
+  margin-left: 1.5rem;
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.listsOfPrepTime {
+  line-height: 1.7rem;
+  color: hsl(30, 10%, 34%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 2.3rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 30px;
+  margin-left: 2.3rem;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.Ingredients,
+ol {
+  margin-left: 1.5rem;
+  line-height: 1.7rem;
+  color: hsl(30, 10%, 34%);
+  width: 57ch;
+  font-family: "Outfit", serif;
+  font-size: 16px;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  margin: 2.5rem;
+}
+.lastp {
+  margin-left: 2.3rem;
+  font-family: "Outfit", serif;
+}
+
+td {
+  border-bottom: 1px solid rgb(209, 203, 203);
+  padding: 0.5rem;
+}
+.fat {
+  border: none;
+}
+table {
+  width: 40rem;
+  border-collapse: collapse;
+  margin-left: 2.3rem;
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+}
+.target {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+li {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 150rem;
+    width: auto;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    height: 132rem;
+    width: 30rem;
+  }
+  img {
+    width: 30rem;
+    margin-top: 0;
+  }
+  h1 {
+    margin-left: 1.5rem;
+    width: 15ch;
+  }
+
+  .mainpara {
+    margin-left: 2.3rem;
+    width: 30ch;
+  }
+  .prepare {
+    height: 10rem;
+    width: 26rem;
+  }
+  .respList {
+    width: 25ch;
+  }
+  ol {
+    width: 22ch;
+  }
+  .lastp {
+    width: 28ch;
+  }
+  li {
+    padding-left: 10px;
+  }
+  table {
+    width: 25rem;
+  }
+}
